@@ -1,0 +1,18 @@
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --grey: #979797;
+  --dark-blue: #212d3b;
+  --dark-blue-2: #020617;
+  --orange: #f8a40e;
+
+  --base-transition: 300ms;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: var(--white);
+  font-family: 'Rubik', serif;
+}
