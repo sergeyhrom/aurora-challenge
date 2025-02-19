@@ -9,7 +9,6 @@ const axiosInstance = axios.create({
 axiosInstance.interceptors.request.use((config) => {
   const { setLoading } = useCommonStore()
   setLoading(true)
-  config.url = config.url.replace(/^http:/, 'https:');
   return config
 }, (error) => Promise.reject(error)
 )
