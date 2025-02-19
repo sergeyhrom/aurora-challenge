@@ -11,9 +11,9 @@
 
 <script setup>
 import { ref, computed } from 'vue'
-import { loadMovies } from '@/api/index.js'
-import MovieItem from '@/components/movies/MovieItem.vue'
-import MoviesPagination from '@/components/movies/MoviesPagination.vue'
+import { loadMovies } from '../api/index.js'
+import MovieItem from '../components/movies/MovieItem.vue'
+import MoviesPagination from '../components/movies/MoviesPagination.vue'
 
 const movies = ref([])
 const moviesTotal = ref(0)

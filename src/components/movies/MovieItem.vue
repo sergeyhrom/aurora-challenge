@@ -21,7 +21,7 @@
 </template>
 
 <script setup>
-import starIcon from '@/assets/images/star.svg';
+import starIcon from '../../assets/images/star.svg';
 
 const { movie } = defineProps({
   movie: { type: Object, required: true }

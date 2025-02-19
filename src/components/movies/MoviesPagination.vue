@@ -20,7 +20,7 @@
 // I'm not fan of doing a pagination this way via select,
 // however 2 hours is not enough to cover everything, including styling pagination
 import { ref, computed, watch, onMounted } from 'vue'
-import CustomSelect from '@/components/common/CustomSelect.vue'
+import CustomSelect from '../../components/common/CustomSelect.vue'
 
 const { total } = defineProps({
   total: { type: Number, default: 0 }

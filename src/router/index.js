@@ -6,7 +6,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'movies',
-      component: () => import('@/views/Movies.vue')
+      component: () => import('../views/Movies.vue')
     }
   ]
 })

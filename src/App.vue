@@ -8,8 +8,8 @@
 
 <script setup>
 import { RouterView } from 'vue-router'
-import Spinner from '@/components/common/Spinner.vue'
-import AppHeader from '@/components/common/AppHeader.vue'
+import Spinner from './components/common/Spinner.vue'
+import AppHeader from './components/common/AppHeader.vue'
 </script>
 
 <style scoped>

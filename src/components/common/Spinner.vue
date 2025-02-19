@@ -6,7 +6,7 @@
 
 <script setup>
 import { storeToRefs } from 'pinia'
-import useCommonStore from '@/stores/common'
+import useCommonStore from '../../stores/common'
 
 const commonStore = useCommonStore()
 

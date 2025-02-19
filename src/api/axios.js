@@ -1,5 +1,5 @@
 import axios from 'axios'
-import useCommonStore from '@/stores/common'
+import useCommonStore from '../stores/common'
 
 const axiosInstance = axios.create({
   baseURL: import.meta.env.VITE_MOVIES_API_URL
