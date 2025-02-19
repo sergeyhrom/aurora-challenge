@@ -2,7 +2,8 @@ import axios from 'axios'
 import useCommonStore from '../stores/common'
 
 const axiosInstance = axios.create({
-  baseURL: import.meta.env.VITE_MOVIES_API_URL
+  // baseURL: import.meta.env.VITE_MOVIES_API_URL,
+  baseURL: 'https://november7-730026606190.europe-west1.run.app'
 })
 
 axiosInstance.interceptors.request.use((config) => {
